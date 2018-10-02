@@ -1,0 +1,29 @@
+@font-face
+{
+	font-family: police ;
+	src: url('police.ttf');
+}
+h1
+{
+	color : red ;
+	text-align : right ;
+}
+ol
+{
+	text-align : center ;
+	border-style : solid ;
+	border-color : red ;
+	border-width : 3px ;
+	box-shadow : 6px 6px 6px violet ;
+}
+ul
+{
+	font-size : 0.5em ;
+}
+body
+{
+	background-image : url("bg.jpg") ;
+	font-family : police, Arial ;
+	font-size : 3em ;
+	color : white ;
+}

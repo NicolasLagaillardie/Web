@@ -1,0 +1,139 @@
+@font-face
+{
+	font-family: Prstina ;
+	src: url('PRISTINA.TFF');
+}
+body
+{
+	background-color: black; /* Le fond de la page sera noir */	
+	color: white; /* Le texte de la page sera blanc */
+	background : url("ball.png") fixed no-repeat top left , url("background.jpg") fixed no-repeat ;
+	/* background-image : url("background.jpg") ; */
+	/* background-attachment: repeat  Le fond sera répété */
+}
+#conteneur1
+{	
+	display: flex ;
+	justify-content : space-around ;
+}
+#conteneur2
+{
+	display : flex ;
+	flex-direction : column ;
+	align-items : center ;
+}
+#conteneur3
+{
+	display: flex ;
+	flex-direction : column-reverse ;
+}
+#conteneur4
+{
+	display: flex ;
+	flex-wrap : wrap ;
+	align-content : center ; 
+}
+p
+{	
+	color : blue ;
+	font-size : 1.7em;
+	font-style : italic ;
+	font-weight : normal ;
+	text-align : justify ;
+	box-shadow: 6px 6px 6px yellow ;
+}
+h1
+{
+	color : orange ;
+	font-size : 0.5em ;
+	font-style : normal ;
+	font-style: oblique ;
+	font-family : Arial, "Arial Black" ;
+	text-align : right ;
+}
+h1:hover
+{
+	color : red ;
+	font-size : 0.5em ;
+	font-weight : bold ;
+	font-family : Arial, "Arial Black" ;
+	text-align : right ;
+}
+ol
+{
+	color : grey ;
+	font-size : 3em ;
+	font-family : Pristina, Arial, "Arial Black" ;
+	text-shadow: 2px 2px 2px orange ;
+}
+.red
+{
+	color : red ;
+	font-size : 14px ;
+	text-decoration : overline ;
+	border-left : 2px solid red ;
+}
+.IRL
+{
+	color : red ;
+	font-size : 14px ;
+	text-decoration : overline ;
+	border-left : 2px solid red ;
+}
+.IRL:focus
+{
+	color : #FF00FF ;
+	font-size : 14px ;
+	text-decoration : overline ;
+	border-left : 2px solid red ;
+}
+.green
+{
+	color : green ;
+	font-size : 16px ;
+	text-decoration : overline ;
+	text-decoration : underline ;
+	border-right : 2px solid green ;
+}
+.green:active
+{
+	color : grey ;
+	font-size : 16px ;
+	text-decoration : overline ;
+	text-decoration : underline ;
+	border-right : 2px solid green ;
+}
+.blue
+{
+	color : blue ;
+	font-size : 18px ;
+	background-image :  url("bg.jpg") ;
+	background-repeat : repeat-x;
+	border-radius : 8px ;
+}
+.blue:hover
+{
+	color : violet ;
+	font-size : 18px ;
+	background-image :  url("bg.jpg") ;
+	background-repeat : repeat-x;
+	border-radius : 8px ;
+}
+.imageflottante1
+{
+	float : right ;
+}
+.dessous
+{
+	clear: both;
+}
+.imageflottante2
+{
+	float : left ;
+}
+mark
+{
+	/* La couleur de fond prend le pas sur celle de toute la page */
+	background-color: red;
+	color: white ;
+}
